@@ -1,0 +1,14 @@
+.pages {
+  display: inline;
+  height:50px;
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  text-align: center;
+  position: relative;
+  top: 100%;
+  
+}

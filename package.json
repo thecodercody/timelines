@@ -1,0 +1,14 @@
+{
+  "name"         : "timelines",
+  "version"      : "1.0.0",
+  "description"  : "DafaPersecutionTimeline",
+  "main"         : "server.js",
+  "author"       : "cody",
+  "dependencies" : {
+    "body-parser": "latest",
+    "express"    : "latest",
+    "method-override": "latest",
+    "morgan"     : "latest",
+    "nodemon"    : "latest"
+    }
+}
