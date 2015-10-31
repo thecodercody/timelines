@@ -14,28 +14,28 @@
   <script src="lib/angular.min.js"></script>
   <script src="lib/angular-route.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/oneController.js"></script>
-  <script src="js/twoController.js"></script>  
+  <script src="js/controllers/introController.js"></script>
+  <script src="js/controllers/multiController.js"></script>  
   <title>China's Persecution of Falun Dafa</title>
 <base href="/">
 </head>
 
 
-<body ng-app="timelines" ng-controller="oneController">
+<body ng-app="timelines" ng-controller="introController">
   <div class="header">
     <h1>China's Persecution of Falun Dafa</h1>
       <ul>
 
-      <li class="pages"><a ng-init="oneController()" href="/">1</a></li>
-      <li class="pages"><a ng-init="twoController()" href="/two">2</a></li>
-      <li class="pages"><a ng-init="init()" href="/three">3</a></li>
-      <li class="pages"><a ng-init="init()" href="/four">4</a></li>
-      <li class="pages"><a ng-init="init()" href="/five">5</a></li>
-      <li class="pages"><a ng-init="init()" href="/six">6</a></li>
-      <li class="pages"><a ng-init="init()" href="/seven">7</a></li>
-      <li class="pages"><a ng-init="init()" href="/eight">8</a></li>
-      <li class="pages"><a ng-init="init()" href="/nine">9</a></li>
+      <li class="pages"><a ng-init="introController()" href="/">Intro</a></li>
+      <li class="pages"><a ng-init="multiController()" href="/one">1</a></li>
+      <li class="pages"><a ng-init="multiController()" href="/two">2</a></li>
+      <li class="pages"><a ng-init="multiController()" href="/three">3</a></li>
+      <li class="pages"><a ng-init="multiController()" href="/four">4</a></li>
+      <li class="pages"><a ng-init="multiController()" href="/five">5</a></li>
+      <li class="pages"><a ng-init="multiController()" href="/six">6</a></li>
+      <li class="pages"><a ng-init="multiController()" href="/seven">7</a></li>
+      <li class="pages"><a ng-init="multiController()" href="/eight">8</a></li>
+      <li class="pages"><a ng-init="multiController()" href="/nine">9</a></li>
 
       </ul>
   </div>

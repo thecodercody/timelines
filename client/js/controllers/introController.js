@@ -4,7 +4,7 @@ angular.module('timelines', ['ngRoute'])
   return {};
 })
 
-.controller('oneController', ['appFact', function(appFact){
+.controller('introController', ['appFact', function(appFact){
   appFact.init = init;
 
   function init(){    
@@ -42,48 +42,53 @@ angular.module('timelines', ['ngRoute'])
 
       // landing page
       .when('/', {
+        templateUrl : '../views/intro.html',
+        controller : 'introController'
+      })
+
+      .when('/one', {
         templateUrl : '../views/one.html',
-        controller : 'oneController'
+        controller : 'multiController'
       })
 
       .when('/two', {
         templateUrl: '../views/two.html',
-        controller: 'twoController'
+        controller: 'multiController'
       })
 
       .when('/three', {
         templateUrl: '../views/three.html',
-        controller: 'twoController'
+        controller: 'multiController'
       })
 
       .when('/four', {
         templateUrl: '../views/four.html',
-        controller: 'twoController'
+        controller: 'multiController'
       })
 
       .when('/five', {
         templateUrl: '../views/five.html',
-        controller: 'twoController'
+        controller: 'multiController'
       })
 
       .when('/six', {
         templateUrl: '../views/six.html',
-        controller: 'twoController'
+        controller: 'multiController'
       })
 
       .when('/seven', {
         templateUrl: '../views/seven.html',
-        controller: 'twoController'
+        controller: 'multiController'
       })
 
       .when('/eight', {
         templateUrl: '../views/eight.html',
-        controller: 'twoController'
+        controller: 'multiController'
       })
 
       .when('/nine', {
         templateUrl: '../views/nine.html',
-        controller: 'twoController'
+        controller: 'multiController'
       })
 
       // all others
